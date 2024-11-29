@@ -1,0 +1,144 @@
+/* Estilo Geral */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+/* Navbar */
+.custom-navbar {
+  background-color: #000000; 
+}
+
+.navbar-brand img {
+  border-radius: 50%; 
+}
+
+.nav-link.active {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/* Offcanvas */
+.custom-offcanvas {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.custom-offcanvas .nav-link.active {
+  color: #00ff00;
+}
+
+/* Seção Barreira */
+.barreira {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin: 20px auto;
+  color: #ffffff;
+}
+
+.subtitulo {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  color: #8d8c8c;
+}
+
+.butao {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px; 
+  background-color: #007700; 
+  color: white; 
+  font-size: 1rem;
+  text-align: center;
+  border: none;
+  border-radius: 5px; 
+  width: 120px; 
+}
+
+.butao:hover {
+  background-color: #007700; 
+  color: white; 
+  text-decoration: none; 
+}
+
+/* Seção Caldeirão */
+.custom-carousel {
+  background-color: #ffffff; 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.minititulo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333333;
+}
+
+.descricao {
+  font-size: 1rem;
+  margin-top: 10px;
+  color: #666666;
+}
+
+.comprar {
+  background-color: #00a000;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.comprar:hover {
+  background-color: #007700;
+  color: #ffffff;
+}
+
+/* Tour da Colina */
+.tour-info {
+  padding: 20px;
+  margin: 20px auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tour-info h2,
+.tour-info h3 {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #555555; 
+}
+
+.tour-info p,
+.tour-info li {
+  font-size: 1rem;
+  color: #555555; 
+}
+
+.tour-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Estilo da Navbar */
+.navbar {
+  border-bottom: 1px solid white; /* Borda branca na parte inferior */
+}
+
+/* Links da Navbar */
+.navbar .nav-link {
+  color: #00ff00 !important; /* Cor verde para os links */
+  text-decoration: none; 
+}
+
+/* Hover da Navbar */
+.navbar .nav-link:hover {
+  color: #00ff00 !important; /* Mantém a mesma cor no hover */
+  text-decoration: none; 
+}
